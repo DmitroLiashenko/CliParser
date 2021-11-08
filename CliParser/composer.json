@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/console": "^3.3",
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3",
+        "symfony/var-dumper": "*",
+        "symfony/http-client": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CliParser\\": "src"
+        }
+    }
+}
